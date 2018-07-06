@@ -1,0 +1,14 @@
+version: '2'
+services:
+  web:
+    image: webdevops/php-apache-dev:7.2
+    ports:
+      - "80:80"
+    volumes:
+      - ./../..:/var/www/sherlin
+      - ./php.ini:/opt/docker/etc/php/php.ini
+      - ./sherlin.conf:/opt/docker/etc/httpd/vhost.common.d/50-sherlin.conf
+    environment:
+      - ALLOW_OVERRIDE=true
+      - WEB_DOCUMENT_ROOT=/var/www/sherlin
+      - WEB_ALIAS_DOMAIN=sherlin.local
