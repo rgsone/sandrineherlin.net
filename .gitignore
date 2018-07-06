@@ -1,0 +1,13 @@
+/.idea
+/bootstrap
+/dist
+/tools/dist
+/modules
+/node_modules
+/storage
+/vendor
+
+/artisan
+/index.php
+
+.env
