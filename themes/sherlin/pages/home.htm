@@ -1,0 +1,52 @@
+title = "sherlin:home"
+url = "/"
+layout = "base"
+meta_title = "Bonjour ! | Sandrine Herlin"
+meta_description = "Bonjour ! Bienvenue sur le site de Sandrine Herlin, artiste plasticienne à Cambrai."
+is_hidden = 0
+==
+
+{% partial 'svg' %}
+
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+	<!-- Intro -->
+	<div id="intro">
+		<div>
+			<svg fill="white"><use xlink:href="#logo-sh"></use></svg>
+		</div>
+		<h1>Sandrine Herlin</h1>
+		<p>Artiste Plasticienne à Cambrai</p>
+		<ul class="actions">
+			<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+		</ul>
+	</div>
+
+	{% partial 'main_header' %}
+
+	{% partial 'main_nav' %}
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- Post -->
+		<section class="post">
+
+			<header class="major">
+				<h3>Bonjour !<br>Bienvenue sur le site de Sandrine Herlin</h3>
+			</header>
+
+			<p style="text-align:center">
+				<svg fill="black" height="10rem"><use xlink:href="#logo-sh"></use></svg>
+			</p>
+
+		</section>
+
+	</div>
+
+	{% partial 'main_footer' %}
+
+	{% partial 'copyright' %}
+
+</div>

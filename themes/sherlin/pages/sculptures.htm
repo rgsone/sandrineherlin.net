@@ -1,0 +1,43 @@
+title = "sherlin:sculptures"
+url = "/sculptures"
+layout = "base"
+meta_title = "Sculptures | Sandrine Herlin"
+meta_description = "Les sculptures !"
+is_hidden = 0
+
+[pagesContent]
+==
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+	{% partial 'main_header' %}
+
+	{% partial 'main_nav' %}
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- Post -->
+		<section class="post">
+
+			<header class="major">
+				<h1>Sculptures</h1>
+			</header>
+
+			<p style="text-align:center">
+				<em>Toute création naît de la nostalgie d'un paradis perdu</em>
+				<br>
+				<strong>V.Jankélévitch</strong>
+			</p>
+
+			{{ contents.sculpture|md }}
+
+		</section>
+
+	</div>
+
+	{% partial 'main_footer' %}
+
+	{% partial 'copyright' %}
+
+</div>

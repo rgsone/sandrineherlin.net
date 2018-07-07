@@ -1,0 +1,44 @@
+description = "html base template"
+==
+<!doctype html>
+<!--
+
+	      ___           ___           ___           ___           ___           ___
+	     /\  \         /\  \         /\  \         /\  \         /\__\         /\  \
+	    /::\  \       /::\  \       /::\  \       /::\  \       /::|  |       /::\  \
+	   /:/\:\  \     /:/\:\  \     /:/\ \  \     /:/\:\  \     /:|:|  |      /:/\:\  \
+	  /::\~\:\  \   /:/  \:\  \   _\:\~\ \  \   /:/  \:\  \   /:/|:|  |__   /::\~\:\  \
+	 /:/\:\ \:\__\ /:/__/_\:\__\ /\ \:\ \ \__\ /:/__/ \:\__\ /:/ |:| /\__\ /:/\:\ \:\__\
+	 \/_|::\/:/  / \:\  /\ \/__/ \:\ \:\ \/__/ \:\  \ /:/  / \/__|:|/:/  / \:\~\:\ \/__/
+	    |:|::/  /   \:\ \:\__\    \:\ \:\__\    \:\  /:/  /      |:/:/  /   \:\ \:\__\
+	    |:|\/__/     \:\/:/  /     \:\/:/  /     \:\/:/  /       |::/  /     \:\ \/__/
+	    |:|  |        \::/  /       \::/  /       \::/  /        /:/  /       \:\__\
+	     \|__|         \/__/         \/__/         \/__/         \/__/         \/__/
+
+
+	backend dev & front end template modification : rudy 'rgsone' marc | http://rgsone.com
+	front end + template : html5up.net | @ajlkn
+
+-->
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<meta name="robots" content="index,follow">
+
+		{% partial 'social_meta' %}
+
+		<link rel="shortcut icon" href="{{ 'favicon.ico'|app }}">
+		{#{% partial 'favicon' %}#}
+
+		<meta name="description" content="{{ this.page.meta_description }}">
+		<title>{{ this.page.meta_title }}</title>
+		<link rel="stylesheet" href="{{ 'assets/dist/css/main.css'|theme }}" media="all" />
+		<noscript><link rel="stylesheet" href="{{ 'assets/dist/css/noscript.css'|theme }}" media="all" /></noscript>
+	</head>
+	<body class="is-preload">
+		{% page %}
+		{% partial 'scripts' %}
+	</body>
+</html>

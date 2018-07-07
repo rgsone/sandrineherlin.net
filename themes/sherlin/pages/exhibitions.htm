@@ -1,0 +1,37 @@
+title = "sherlin:exhibitions"
+url = "/expo"
+layout = "base"
+meta_title = "Expositions | Sandrine Herlin"
+meta_description = "Liste des expositions."
+is_hidden = 0
+
+[pagesContent]
+==
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+	{% partial 'main_header' %}
+
+	{% partial 'main_nav' %}
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- Post -->
+		<section class="post">
+
+			<header class="major">
+				<h1>Expositions</h1>
+			</header>
+
+			{{ contents.exhibition|md }}
+
+		</section>
+
+	</div>
+
+	{% partial 'main_footer' %}
+
+	{% partial 'copyright' %}
+
+</div>

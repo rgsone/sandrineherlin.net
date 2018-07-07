@@ -1,0 +1,44 @@
+title = "sherlin:paintings"
+url = "/peintures"
+layout = "base"
+meta_title = "Peintures | Sandrine Herlin"
+meta_description = "Les peintures "
+is_hidden = 0
+
+[pagesContent]
+==
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+	{% partial 'main_header' %}
+
+	{% partial 'main_nav' %}
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- Post -->
+		<section class="post">
+
+			<header class="major">
+				<h1>Peintures</h1>
+			</header>
+
+			<p style="text-align:center">
+				Un jardin onirique où les lignes d'horizon ne suivent pas le fil… et parfois apparait une poule replète,
+				une poule coquette qui gambade sur mes toiles par touches d'acryliques, de pastels et de coups de crayon…
+				<br>
+				Prix sur demande.
+			</p>
+
+			{{ contents.painting|md }}
+
+		</section>
+
+	</div>
+
+	{% partial 'main_footer' %}
+
+	{% partial 'copyright' %}
+
+</div>

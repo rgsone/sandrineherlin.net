@@ -1,0 +1,15 @@
+<!-- Nav -->
+<nav id="nav">
+	<ul class="links">
+		<li {% if ( this.page.title == 'sherlin:sculptures' ) %}class="active"{% endif %}><a href="{{ 'sculptures'|page }}">Sculptures</a></li>
+		<li {% if ( this.page.title == 'sherlin:etchings' ) %}class="active"{% endif %}><a href="{{ 'etchings'|page }}">Gravures</a></li>
+		<li {% if ( this.page.title == 'sherlin:paintings' ) %}class="active"{% endif %}><a href="{{ 'paintings'|page }}">Peintures</a></li>
+		<li {% if ( this.page.title == 'sherlin:drawings' ) %}class="active"{% endif %}><a href="{{ 'drawings'|page }}">Dessins</a></li>
+		<li {% if ( this.page.title == 'sherlin:exhibitions' ) %}class="active"{% endif %}><a href="{{ 'exhibitions'|page }}">Expositions</a></li>
+		<li {% if ( this.page.title == 'sherlin:about' ) %}class="active"{% endif %}><a href="{{ 'about'|page }}">À&nbsp;Propos</a></li>
+	</ul>
+	<ul class="icons">
+		<li><a href="https://www.facebook.com/Sandrine-la-sardine-106556929389393/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+		<li><a href="https://www.instagram.com/herlinsandrine/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+	</ul>
+</nav>
