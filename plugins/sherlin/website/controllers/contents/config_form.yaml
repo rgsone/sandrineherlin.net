@@ -1,0 +1,10 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+form: $/sherlin/website/models/content/fields.yaml
+modelClass: SHerlin\Website\Models\Content
+defaultRedirect: sherlin/website/contents
+update:
+  title: 'Modifer le contenu du site'
+  flashSave: 'Contenu mis à jour avec succés !'
