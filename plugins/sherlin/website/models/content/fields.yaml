@@ -1,0 +1,37 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+  fields:
+
+    exhibition_content:
+      tab: 'Page Expositions'
+      label: 'Contenu de la page'
+      type: markdown
+      size: giant
+      mode: split
+    sculpture_content:
+      tab: 'Page Sculptures'
+      label: 'Contenu de la page'
+      type: markdown
+      size: giant
+      mode: split
+    etching_content:
+      tab: 'Page Gravures'
+      label: 'Contenu de la page'
+      type: markdown
+      size: giant
+      mode: split
+    painting_content:
+      tab: 'Page Peintures'
+      label: 'Contenu de la page'
+      type: markdown
+      size: giant
+      mode: split
+    drawing_content:
+      tab: 'Page Dessins'
+      label: 'Contenu de la page'
+      type: markdown
+      size: giant
+      mode: split

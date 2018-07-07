@@ -1,0 +1,45 @@
+title = "sherlin:etchings"
+url = "/gravures"
+layout = "base"
+meta_title = "Gravures | Sandrine Herlin"
+meta_description = "Les gravures !"
+is_hidden = 0
+
+[pagesContent]
+==
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+	{% partial 'main_header' %}
+
+	{% partial 'main_nav' %}
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- Post -->
+		<section class="post">
+
+			<header class="major">
+				<h1>Gravures</h1>
+			</header>
+
+			<p style="text-align:center">
+				Série d'illustrations intitulée "déformations professionnelles".
+				<br>
+				Linogravure
+				<br>
+				Tirage limité
+			</p>
+
+			{{ contents.etching|md }}
+
+		</section>
+
+	</div>
+
+	{% partial 'main_footer' %}
+
+	{% partial 'copyright' %}
+
+</div>

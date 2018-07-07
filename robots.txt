@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /bootstrap/
+Disallow: /config/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /vendor/
+Allow: /storage/
+Allow: /themes/
