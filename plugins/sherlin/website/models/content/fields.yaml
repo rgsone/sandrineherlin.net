@@ -11,8 +11,14 @@ tabs:
       type: markdown
       size: giant
       mode: split
-    sculpture_content:
-      tab: 'Page Sculptures'
+    shelter_content:
+      tab: 'Page Refuges'
+      label: 'Contenu de la page'
+      type: markdown
+      size: giant
+      mode: split
+    specimen_content:
+      tab: 'Page Spécimen'
       label: 'Contenu de la page'
       type: markdown
       size: giant
@@ -25,12 +31,6 @@ tabs:
       mode: split
     painting_content:
       tab: 'Page Peintures'
-      label: 'Contenu de la page'
-      type: markdown
-      size: giant
-      mode: split
-    drawing_content:
-      tab: 'Page Dessins'
       label: 'Contenu de la page'
       type: markdown
       size: giant

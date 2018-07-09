@@ -29,10 +29,10 @@ class PagesContent extends ComponentBase
 		# inject vars
 		$this->page[ 'contents' ] = [
 			'exhibition' => Content::get( 'exhibition_content' ),
-			'sculpture' => Content::get( 'sculpture_content' ),
+			'specimen' => Content::get( 'specimen_content' ),
+			'shelter' => Content::get( 'shelter_content' ),
 			'etching' => Content::get( 'etching_content' ),
-			'painting' => Content::get( 'painting_content' ),
-			'drawing' => Content::get( 'drawing_content' )
+			'painting' => Content::get( 'painting_content' )
 		];
 	}
 }
