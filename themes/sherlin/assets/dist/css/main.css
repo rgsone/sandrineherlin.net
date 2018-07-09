@@ -4667,3 +4667,8 @@ input, select, textarea {
 .txt-center {
 	text-align: center;
 }
+
+/* override .logo style */
+#header .logo {
+	border-width: .1rem !important;
+}
