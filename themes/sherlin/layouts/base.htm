@@ -1,4 +1,6 @@
 description = "html base template"
+
+[localePicker]
 ==
 <!doctype html>
 <!--
@@ -20,7 +22,7 @@ description = "html base template"
 	front end + template : html5up.net | @ajlkn
 
 -->
-<html lang="fr">
+<html lang="{{ localePicker.activeLocale }}">
 	<head>
 		<meta charset="UTF-8">
 		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
@@ -32,8 +34,8 @@ description = "html base template"
 		<link rel="shortcut icon" href="{{ 'favicon.ico'|app }}">
 		{#{% partial 'favicon' %}#}
 
-		<meta name="description" content="{{ this.page.meta_description }}">
-		<title>{{ this.page.meta_title }}</title>
+		<meta name="description" content="{{ this.page.meta_description|_ }}">
+		<title>{{ this.page.meta_title|_ }}</title>
 		<link rel="stylesheet" href="{{ 'assets/dist/css/main.css'|theme }}" media="all" />
 		<noscript><link rel="stylesheet" href="{{ 'assets/dist/css/noscript.css'|theme }}" media="all" /></noscript>
 	</head>

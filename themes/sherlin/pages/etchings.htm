@@ -6,6 +6,9 @@ meta_description = "Du haut des refuges perchés, sous le regard d'oiseaux singu
 is_hidden = 0
 
 [pagesContent]
+
+[viewBag]
+localeUrl[en] = "/etchings"
 ==
 <!-- Wrapper -->
 <div id="wrapper" class="fade-in">
@@ -21,15 +24,11 @@ is_hidden = 0
 		<section class="post">
 
 			<header class="major">
-				<h1>Gravures</h1>
+				<h1>{{ 'page.etchings.name'|_ }}</h1>
 			</header>
 
 			<p class="txt-center">
-				Série d'illustrations intitulée "déformations professionnelles".
-				<br>
-				Linogravure
-				<br>
-				Tirage limité
+				{{ 'page.etchings.desc'|_|nl2br }}
 			</p>
 
 			{{ contents.etching|md }}

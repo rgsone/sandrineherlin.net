@@ -1,9 +1,12 @@
 title = "sherlin:error"
-url = "/error"
+url = "/erreur"
 layout = "base"
 meta_title = "Une erreur s'est produite ! | Sandrine Herlin"
 meta_description = "Une erreur s'est produite !"
 is_hidden = 0
+
+[viewBag]
+localeUrl[en] = "/error"
 ==
 <!-- Wrapper -->
 <div id="wrapper" class="fade-in">
@@ -19,7 +22,7 @@ is_hidden = 0
 		<section class="post">
 
 			<header class="major">
-				<h1>Une erreur s'est produite !</h1>
+				<h1>{{ 'page.error.message'|_|nl2br }}</h1>
 			</header>
 
 		</section>

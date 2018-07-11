@@ -1,0 +1,67 @@
+fr:
+  site.subtitle: 'Artiste Plasticienne à Cambrai'
+  page.404.message: |
+    Désolé !
+    Cette page
+    n'existe pas !
+  page.error.message: 'Une erreur s''est produite !'
+  page.maintenance.message: |
+    Le site revient vite,
+    un peu de patience...
+  page.home.intro: |
+    Bonjour !
+    Bienvenue sur le site de Sandrine Herlin.
+  page.home.tagline: 'Artiste Plasticienne à Cambrai'
+  page.about.name: 'À Propos'
+  page.exhibitions.name: 'Expositions'
+  page.paintings.name: 'Peintures'
+  page.paintings.desc: |
+    Un jardin onirique où les lignes d'horizon ne suivent pas le fil… et parfois apparait une poule replète, une poule coquette qui gambade sur mes toiles par touches d'acryliques, de pastels et de coups de crayon…
+    Prix sur demande.
+  page.etchings.name: 'Gravures'
+  page.etchings.desc: |
+    Série d'illustrations intitulée "déformations professionnelles".
+    Linogravure
+    Tirage limité
+  page.specimen.name: 'Spécimen'
+  page.specimen.desc: 'sous titre'
+  page.shelters.name: 'Refuges'
+  copyright.design: 'Thème+design'
+  copyright.handmade: 'Bricolé main par'
+  footer.phone: 'Téléphone'
+  footer.email: 'Email'
+  footer.social: 'Social'
+en:
+  site.subtitle: 'Artist at Cambrai'
+  page.404.message: |
+    Sorry !
+    This page
+    does not exist !
+  page.error.message: 'An error has occured !'
+  page.maintenance.message: |
+    The site
+    comes back soon,
+    a little patience ...
+  page.home.intro: |
+    Hello !
+    Welcome to Sandrine Herlin's website.
+  page.home.tagline: 'Artist in Cambrai (France)'
+  page.about.name: 'About'
+  page.exhibitions.name: 'Exhibitions'
+  page.paintings.name: 'Paintings'
+  page.paintings.desc: |
+    [en]Un jardin onirique où les lignes d'horizon ne suivent pas le fil… et parfois apparait une poule replète, une poule coquette qui gambade sur mes toiles par touches d'acryliques, de pastels et de coups de crayon…
+    Prix sur demande.
+  page.etchings.name: 'Etchings'
+  page.etchings.desc: |
+    [en] Série d'illustrations intitulée "déformations professionnelles".
+    Linogravure
+    Tirage limité
+  page.specimen.name: 'Specimen'
+  page.specimen.desc: 'subtitle'
+  page.shelters.name: 'Shelters'
+  copyright.design: 'Theme+design'
+  copyright.handmade: 'Handcrafted by'
+  footer.phone: 'Phone'
+  footer.email: 'Email'
+  footer.social: 'Social'

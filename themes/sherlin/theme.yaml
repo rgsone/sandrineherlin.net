@@ -3,3 +3,4 @@ description: 'sandrineherlin.net theme'
 author: 'rgsone'
 homepage: 'http://rgsone.com'
 code: ''
+translate: lang/lang.yaml

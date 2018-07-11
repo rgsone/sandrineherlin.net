@@ -1,11 +1,14 @@
 title = "sherlin:exhibitions"
-url = "/expo"
+url = "/expositions"
 layout = "base"
 meta_title = "Expositions | Sandrine Herlin"
 meta_description = "Liste des expositions."
 is_hidden = 0
 
 [pagesContent]
+
+[viewBag]
+localeUrl[en] = "/exhibitions"
 ==
 <!-- Wrapper -->
 <div id="wrapper" class="fade-in">
@@ -21,7 +24,7 @@ is_hidden = 0
 		<section class="post">
 
 			<header class="major">
-				<h1>Expositions</h1>
+				<h1>{{ 'page.exhibitions.name'|_ }}</h1>
 			</header>
 
 			{{ contents.exhibition|md }}
