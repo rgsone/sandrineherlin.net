@@ -49,13 +49,15 @@ gulp.task( 'clean:dist', () => {
 		'dist/**/.gitkeep',
 		'dist/**/.gitignore',
 		'dist/**/.git',
-		'dist/themes/sherlin/assets/src/**',
-		'dist/storage/app/media/**/*',
-		'dist/storage/app/uploads/**/*',
+		//'dist/storage/app/media/**/*',
+		//'dist/storage/app/uploads/**/*',
+		'dist/storage/cms/cache/**/*',
+		'dist/storage/cms/twig/**/*',
+		'dist/storage/framework/cache/**/*',
 		'dist/storage/framework/sessions/**/*',
 		'dist/storage/logs/**/*',
-		'dist/storage/temp/media/**/*',
-		'dist/storage/temp/public/**/*'
+		//'dist/storage/temp/media/**/*',
+		//'dist/storage/temp/public/**/*'
 	],
 	{
 		dot: true
