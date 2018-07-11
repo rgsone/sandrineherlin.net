@@ -27,12 +27,15 @@ class PagesContent extends ComponentBase
 	public function onRun()
 	{
 		# inject vars
+
+		$content = Content::instance();
+
 		$this->page[ 'contents' ] = [
-			'exhibition' => Content::get( 'exhibition_content' ),
-			'specimen' => Content::get( 'specimen_content' ),
-			'shelter' => Content::get( 'shelter_content' ),
-			'etching' => Content::get( 'etching_content' ),
-			'painting' => Content::get( 'painting_content' )
+			'exhibition' => $content->getAttributeTranslated( 'exhibition_content' ),
+			'specimen' => $content->getAttributeTranslated( 'specimen_content' ),
+			'shelter' => $content->getAttributeTranslated( 'shelter_content' ),
+			'etching' => $content->getAttributeTranslated( 'etching_content' ),
+			'painting' => $content->getAttributeTranslated( 'painting_content' )
 		];
 	}
 }

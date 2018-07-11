@@ -13,7 +13,17 @@ class Content extends Model
 {
 	use Validation;
 
-	public $implement = [ 'System.Behaviors.SettingsModel' ];
+	public $implement = [
+		'System.Behaviors.SettingsModel',
+		'RainLab.Translate.Behaviors.TranslatableModel'
+	];
+	public $translatable = [
+		'exhibition_content',
+		'shelter_content',
+		'specimen_content',
+		'etching_content',
+		'painting_content'
+	];
 	public $settingsCode = 'sherlin_website_contents';
 	public $settingsFields = 'fields.yaml';
 
