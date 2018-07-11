@@ -4,7 +4,6 @@
 
 tabs:
   fields:
-
     exhibition_content:
       tab: 'Page Expositions'
       label: 'Contenu de la page'
