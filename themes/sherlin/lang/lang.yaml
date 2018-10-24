@@ -1,5 +1,5 @@
 fr:
-  site.subtitle: 'Artiste Plasticienne à Cambrai'
+  site.subtitle: 'Artiste Plasticienne'
   page.404.message: |
     Désolé !
     Cette page
@@ -11,7 +11,7 @@ fr:
   page.home.intro: |
     Bonjour !
     Bienvenue sur le site de Sandrine Herlin.
-  page.home.tagline: 'Artiste Plasticienne à Cambrai'
+  page.home.tagline: 'Artiste Plasticienne'
   page.about.name: 'À Propos'
   page.exhibitions.name: 'Expositions'
   page.paintings.name: 'Peintures'
@@ -19,12 +19,9 @@ fr:
     Un jardin onirique où les lignes d'horizon ne suivent pas le fil… et parfois apparait une poule replète, une poule coquette qui gambade sur mes toiles par touches d'acryliques, de pastels et de coups de crayon…
     Prix sur demande.
   page.etchings.name: 'Gravures'
-  page.etchings.desc: |
-    Série d'illustrations intitulée "déformations professionnelles".
-    Linogravure
-    Tirage limité
-  page.specimen.name: 'Spécimen'
-  page.specimen.desc: 'sous titre'
+  page.etchings.desc: 'Série d''estampes et dessins'
+  page.specimens.name: 'Spécimens'
+  page.specimens.desc: 'Galeries de portraits'
   page.shelters.name: 'Refuges'
   copyright.design: 'Thème+design'
   copyright.handmade: 'Bricolé main par'
@@ -45,7 +42,7 @@ en:
   page.home.intro: |
     Hello !
     Welcome to Sandrine Herlin's website.
-  page.home.tagline: 'Artist in Cambrai (France)'
+  page.home.tagline: 'Artist'
   page.about.name: 'About'
   page.exhibitions.name: 'Exhibitions'
   page.paintings.name: 'Paintings'
@@ -53,12 +50,9 @@ en:
     [en]Un jardin onirique où les lignes d'horizon ne suivent pas le fil… et parfois apparait une poule replète, une poule coquette qui gambade sur mes toiles par touches d'acryliques, de pastels et de coups de crayon…
     Prix sur demande.
   page.etchings.name: 'Etchings'
-  page.etchings.desc: |
-    [en] Série d'illustrations intitulée "déformations professionnelles".
-    Linogravure
-    Tirage limité
-  page.specimen.name: 'Specimen'
-  page.specimen.desc: 'subtitle'
+  page.etchings.desc: 'Series of stamps and drawings'
+  page.specimens.name: 'Specimens'
+  page.specimens.desc: 'Portrait galleries'
   page.shelters.name: 'Shelters'
   copyright.design: 'Theme+design'
   copyright.handmade: 'Handcrafted by'

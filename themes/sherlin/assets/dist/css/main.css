@@ -4664,6 +4664,11 @@ input, select, textarea {
 	padding: 0;
 }
 
+#main .post blockquote p {
+	margin: 0;
+	padding: 0;
+}
+
 .txt-center {
 	text-align: center;
 }
@@ -4671,4 +4676,34 @@ input, select, textarea {
 /* override .logo style */
 #header .logo {
 	border-width: .1rem !important;
+	font-family: "Merriweather", Georgia, serif;
+	text-transform: none;
+	font-style: italic;
+}
+
+#intro > h1 {
+	font-family: "Merriweather", Georgia, serif;
+	font-style: italic;
+	text-transform: none;
+}
+
+#wrapper > .bg {
+	/*
+	background-size: cover;
+	background-position: center center;
+
+	background-image:
+		url( ../static/overlay.png ),
+		linear-gradient( 0deg, rgba( 0, 0, 0, 0.1 ), rgba( 0, 0, 0, 0.1 ) ),
+		url( ../static/bg.jpg );
+	*/
+
+	background-size:
+		auto,
+		auto,
+		cover;
+	background-position:
+		center,
+		center,
+		center;
 }

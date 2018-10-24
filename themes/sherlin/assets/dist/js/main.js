@@ -83,6 +83,8 @@
 
 			};
 
+			/* remove bg parralax here
+
 			// Disable parallax on ..
 				if (browser.name == 'ie'			// IE
 				||	browser.name == 'edge'			// Edge
@@ -97,6 +99,9 @@
 					breakpoints.on('<=large', off);
 
 				}
+			*/
+
+			off();
 
 		});
 
