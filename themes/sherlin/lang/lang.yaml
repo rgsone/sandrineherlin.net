@@ -26,6 +26,7 @@ fr:
   copyright.design: 'Thème+design'
   copyright.handmade: 'Bricolé main par'
   footer.phone: 'Téléphone'
+  footer.phone.number: '06 30 91 94 62'
   footer.email: 'Email'
   footer.social: 'Social'
 en:
@@ -57,5 +58,6 @@ en:
   copyright.design: 'Theme+design'
   copyright.handmade: 'Handcrafted by'
   footer.phone: 'Phone'
+  footer.phone.number: '(+33) 6 30 91 94 62'
   footer.email: 'Email'
   footer.social: 'Social'
